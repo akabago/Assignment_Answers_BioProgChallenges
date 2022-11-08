@@ -17,18 +17,27 @@ To run the script use ruby process_database.rb ./Data/gene_information.tsv ./Dat
 
 We have used the following bibliography in order to check out for some ideas for our assignment's code: 
 
-> How to use the initialize method in ruby. RubyGuides. (2019, July 23). Retrieved November 3, 2022, from https://www.rubyguides.com/2019/01/ruby-initialize-method/ 
+> Can I delete columns from CSV using Ruby? (s/f). Stack Overflow. Recuperado el 8 de noviembre de 2022, de https://stackoverflow.com/questions/9184504/can-i-delete-columns-from-csv-using-ruby
 
-> Contents. Reading from a CSV File | Ruby for Beginners. (n.d.). Retrieved November 3, 2022, from http://ruby-for-beginners.rubymonstas.org/exercises/mailbox_csv.html 
+> Castello, J. (2019, enero 25). How to use the initialize method in Ruby. RubyGuides; Jesus Castello. https://www.rubyguides.com/2019/01/ruby-initialize-method/
 
-> Ruby array methods: Complete guide to top 13 methods in ruby array. EDUCBA. (2021, March 3). Retrieved November 3, 2022, from https://www.educba.com/ruby-array-methods/ 
+> Korner, T. W. (1993). A chi squared test. En Exercises in Fourier Analysis (pp. 307–309). Cambridge University Press.
 
-> Ruby: Loops (for, while, do..while, until). GeeksforGeeks. (2021, July 5). Retrieved November 3, 2022, from https://www.geeksforgeeks.org/ruby-loops-for-while-do-while-until/#forLoop 
+> Otieno, J. (s/f). If Conditions in Ruby. Linuxhint.com. Recuperado el 8 de noviembre de 2022, de https://linuxhint.com/if-conditions-in-ruby/
 
-> Otieno, J. (1969, January 1). If conditions in ruby. Retrieved November 3, 2022, from https://linuxhint.com/if-conditions-in-ruby/#:~:text=Ruby%20If%20Statements%20The%20if%20statement%20takes%20a,or%20false.%20If%20true%2C%20it%20performs%20a%20decision. 
+> Pedamkar, P. (2020, abril 20). Ruby Array Methods. EDUCBA. https://www.educba.com/ruby-array-methods/
 
-> Ruby: Datetime now() function. GeeksforGeeks. (2020, January 9). Retrieved November 3, 2022, from https://www.geeksforgeeks.org/ruby-datetime-now-function/ 
+> Rails DateTime.Now without time. (s/f). Stack Overflow. Recuperado el 8 de noviembre de 2022, de https://stackoverflow.com/questions/8196434/rails-datetime-now-without-time
 
-> Rails datetime.now without time. Stack Overflow. Retrieved November 3, 2022, from https://stackoverflow.com/questions/8196434/rails-datetime-now-without-time 
+> Reading from a CSV File. (s/f). Rubymonstas.org. Recuperado el 8 de noviembre de 2022, de http://ruby-for-beginners.rubymonstas.org/exercises/mailbox_csv.html
 
-> Can I delete columns from CSV using ruby? Stack Overflow. Retrieved November 5, 2022, from https://stackoverflow.com/questions/9184504/can-i-delete-columns-from-csv-using-ruby 
+> Ruby. (2018, julio 31). GeeksforGeeks. https://www.geeksforgeeks.org/ruby-loops-for-while-do-while-until/
+
+> Ruby. (2019, septiembre 2). GeeksforGeeks. https://www.geeksforgeeks.org/ruby-datetime-now-function/
+
+> Ruby - if...else, case, unless. (s/f). Tutorialspoint.com. Recuperado el 8 de noviembre de 2022, de https://www.tutorialspoint.com/ruby/ruby_if_else.htm
+
+> Ruby - Variables, Constants and Literals. (s/f). Tutorialspoint.com. Recuperado el 8 de noviembre de 2022, de https://www.tutorialspoint.com/ruby/ruby_variables.htm
+
+> Ruby: Check number of arguments passed from instantiated class to the method of a module. (s/f). Stack Overflow. Recuperado el 8 de noviembre de 2022, de https://stackoverflow.com/questions/27965944/ruby-check-number-of-arguments-passed-from-instantiated-class-to-the-method-of
+ 
