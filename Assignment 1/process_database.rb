@@ -4,9 +4,9 @@
 
 require "csv"
 require "date"
-require './Classes/Genes.rb'
-require './Classes/SeedStock.rb'
-require './Classes/Cross.rb'
+require './Clases/Genes.rb'
+require './Clases/SeedStock.rb'
+require './Clases/Cross.rb'
 
 #Control of arguments 
 if ARGV.length() != 3
