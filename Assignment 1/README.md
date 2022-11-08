@@ -13,6 +13,6 @@ It consists in two main task using Object- oriented programming:
    
 To run the script use ruby process_database.rb ./Data/gene_information.tsv ./Data/seed_stock_data.tsv ./Data/cross_data.tsv
 
-#Bibliography
+# Bibliography
 
 We have used the following bibliography in order to check out for some ideas for our assignment's code: 
