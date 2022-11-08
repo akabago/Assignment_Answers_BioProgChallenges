@@ -1,5 +1,5 @@
 
-# Assignment 
+# Assignment 1
 This project was made in collaboration with Angela Gomez Sacristan, Mariam El Akal Chaji and Marta Fernandez Gonzalez.
 
 It consists in two main task using Object- oriented programming: 
