@@ -7,6 +7,9 @@ One step in this analysis would be to determine if the co-expressed genes are kn
 
 Using the co-expressed gene list from Table S2 of the supplementary data from their analysis (it is the txt file attached in this folder):
 
-1. se a combination of any or all of:  dbFetch, Togo REST API, EBI’s PSICQUIC REST API, DDBJ KEGG REST, and/or the Gene Ontology
-2. Find all protein-protein interaction networks that involve members of that gene list
-Determine which members of the gene list interact with each other.
+1. Use a combination of any or all of:  dbFetch, Togo REST API, EBI’s PSICQUIC REST API, DDBJ KEGG REST, and/or the Gene Ontology. 
+2. Find all protein-protein interaction networks that involve members of that gene list.
+3. Determine which members of the gene list interact with each other.
+
+For running the code use: ruby Main.rb ArabidopsisSubNetwork_GeneList.txt
+
