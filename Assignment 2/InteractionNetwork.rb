@@ -139,16 +139,16 @@ class InteractionNetwork
         g = InteractionNetwork.go("#{gene_id}")
         
         if k == {}
-          kt.append("ID: #{gene_id} -> KeggAnnotation: No anotation found")
+          kt.append("ID: #{gene_id} -> KeggAnnotation: No anotation found\n")
         else 
-          kt.append("ID: #{gene_id} -> KeggAnnotation: #{k}")
+          kt.append("ID: #{gene_id} -> KeggAnnotation: #{k}\n")
         end 
 
         if g == {}
-          gt.append("ID: #{gene_id} -> GoAnnotation: No anotation found")
+          gt.append("ID: #{gene_id} -> GoAnnotation: No anotation found \n")
         
         else 
-          gt.append("ID: #{gene_id} -> GoAnnotation: #{g}")
+          gt.append("ID: #{gene_id} -> GoAnnotation: #{g} \n")
         end 
       end
       classe[1].interactions = int_list[n]
@@ -164,7 +164,23 @@ class InteractionNetwork
     File.open("final_report.txt", "a") { |f| f.write "FINAL REPORT\n\n" }
     @@total.each do |classe|
       n = classe[1].net_num
-      File.open("final_report.txt", "a") { |f| f.write "NETWORK #{n}\n------------------ \nNETWORK MEMBERS:\n#{classe[1].members}\n\nNETWORK INTERACTIONS:\n#{classe[1].interactions}\n\nGO ANNOTATIONS OF MEMBERS:\n#{classe[1].goannot}\n\nKEGGS ANNOTATIONS OF MEMBERS:\n#{classe[1].keggannot}\n\n" }
+      File.open("final_report.txt", "a") { |f| f.write "------------------ \nNETWORK #{n}\n------------------ \n"}
+      File.open("final_report.txt", "a") { |f| f.write "NETWORK MEMBERS:\n"}
+      classe[1].members.each do |member|
+        File.open("final_report.txt", "a") { |f| f.write "#{member}\n"}
+      end
+      File.open("final_report.txt", "a") { |f| f.write "\nNETWORK INTERACTIONS:\n"}
+      classe[1].interactions.each do |int|
+        File.open("final_report.txt", "a") { |f| f.write "#{int}\n"}
+      end
+      File.open("final_report.txt", "a") { |f| f.write "\nGO ANNOTATIONS OF MEMBERS:\n"}
+      classe[1].goannot.each do |go|
+        File.open("final_report.txt", "a") { |f| f.write "#{go}\n"}
+      end
+      File.open("final_report.txt", "a") { |f| f.write "\nKEGGS ANNOTATIONS OF MEMBERS:\n"}
+      classe[1].keggannot.each do |kegg|
+        File.open("final_report.txt", "a") { |f| f.write "#{kegg}\n"}
+      end
     end
   end
   
