@@ -41,5 +41,5 @@ With this you will obtain the following output files:
 # Other things submmited: 
  
 In the yard folder are the outputs of using yard as a comment tool for the GFF_functions.rb generated. 
-The file Arabidopsis_thaliana_219022374_19022379.png is the GFF track beside the AT2G46340 gene on the ENSEMBL website. 
+The file Arabidopsis_thaliana_219022374_19022379.jpeg is the GFF track beside the AT2G46340 gene on the ENSEMBL website. 
 
