@@ -17,7 +17,7 @@ To decide on "sensible" BLAST parameters, do a bit of online reading - when you 
 
 # Running the code 
 
-NOTE: First you will need to decompress the folders TAR10_cds_20101214_updated and pep_1 that conatins the fasta files required for the assignment (as well as others that are generated when the code runs well) - this is because the size of the fasta files that exceds the maximum allowed in GitHub. 
+NOTE: First you will need to decompress the folders TAR10_cds_20101214_updated (it contains TAIR10_cds_20101214_updated_1.fa) and pep_1 (it contains pep_1.fa) that conatins the fasta files required for the assignment (as well as others that are generated when the code runs well) - this is because the size of the fasta files that exceds the maximum allowed in GitHub. 
 
 
 In the terminal type: ruby Main.rb pep_1.fa TAIR10_cds_20101214_updated_1.fa
