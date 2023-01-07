@@ -23,6 +23,8 @@ With this you will generate the Report.txt as the resulting report for this assi
 
 # Other files
 
+The other files corresponds with other databased files needed to found the ortologues between the two species.
+
 In the folder /doc/ it is contained the Yard documentation for the code. 
  
 
