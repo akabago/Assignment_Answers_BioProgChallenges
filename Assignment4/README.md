@@ -40,7 +40,7 @@ Also another way to corroborate this information a sequence alignment can be use
 
 To top off this analysis we could analyze the expression patterns in both species to assure that they express similiary, thing that would provide more evidence if they are actually ortologues. 
 
-Another idea would be using metagenomics tools already implemented as eggNOG-Mapper (http://eggnog-mapper.embl.de/). 
+Another idea would be using metagenomic tools already implemented as eggNOG-Mapper (http://eggnog-mapper.embl.de/). 
 
 # Bibliography
 
