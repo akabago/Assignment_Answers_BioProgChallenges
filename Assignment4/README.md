@@ -18,6 +18,7 @@ To decide on "sensible" BLAST parameters, do a bit of online reading - when you 
 # Running the code 
 
 In the terminal type: ruby Main.rb pep_1.fa TAIR10_cds_20101214_updated_1.fa
+
 With this you will generate the Report.txt as the resulting report for this assignment. 
 
 # Other files
